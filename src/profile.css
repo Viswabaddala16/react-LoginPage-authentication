@@ -3,7 +3,7 @@ div{
     height: 500px;
     background-size: cover;
     background-repeat: no-repeat;
-    border: 1px solid rgb(10, 10, 9);
+    /* border: 1px solid rgb(10, 10, 9); */
    
 
 }
@@ -17,9 +17,7 @@ div{
     margin-top: 0%;
     
 }
-.profile-image p{
-    border: 2px solid black;
-}
+
 .profile-image .details-container {
     margin-left: -1%;
     height: 60%;
