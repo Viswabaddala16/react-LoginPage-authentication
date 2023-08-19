@@ -1,0 +1,54 @@
+div{
+    width: 500px;
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 1px solid rgb(10, 10, 9);
+   
+
+}
+.profile-image{
+    /* border: 2px solid red; */
+    padding: 40px;
+}
+.profile-image h1 {
+    text-align: center;
+    margin-left: -20%;
+    margin-top: 0%;
+    
+}
+.profile-image p{
+    border: 2px solid black;
+}
+.profile-image .details-container {
+    margin-left: -1%;
+    height: 60%;
+    width: 60%;
+    background-color: rgb(224, 77, 77);
+    
+}
+.resize{
+    width: 0%;
+    height: auto;
+}
+.btn{
+    border: none;
+    cursor: pointer;
+    background-color: blue;
+    color: white;
+    margin: 10px 0 0 0;
+    font-size: 20px;
+    padding: 10px;
+
+}
+
+.profile-image div p{
+    width: 70%;
+    
+    font-size: 20px;
+
+    text-decoration: none;
+    
+    margin: 20px 0 0 20px;
+    border: none;
+}

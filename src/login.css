@@ -1,0 +1,83 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    /* background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; */
+    /* background-image: url('c:\download folder\backgroundImage.jpg.jpeg'); */
+
+}
+.login-form{
+    /* border: 2px solid green; */
+    background-color: #fff;
+    box-shadow: 0px 3px 15px rgba(0,0,0,.5);
+    display: flex;
+    border-radius: 10px;
+    justify-self: center;
+    align-items: center;
+    width: 400px;
+    height: auto;
+    
+    place-items: center;
+    margin-left: 10%;
+   
+    
+   
+}
+form{
+    display: flex;
+    flex-direction: column;
+
+    
+}
+form label{
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+input::placeholder{
+    font-weight: 10;
+    color: black;
+}
+form input{
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid rgb(212, 210, 207);
+}
+input:focus{
+    outline: none;
+}
+form label,input{
+    margin-left: 15px;
+}
+form button{
+    margin-left: 15px;
+    padding: 10px;
+    background-color: blue;
+    color: white;
+    font-size: 17px;
+    margin-top: 10px;
+    cursor: pointer;
+    border: none;
+    font-weight: 20;
+    margin-bottom: 15px;
+    
+}
+button:hover{
+    background-color: green;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.login-form p,h1{
+    margin-left: 15px;
+}
+.login-form p{
+    margin-top: 10%;
+}
+form{
+    margin-right: 15px;
+}
